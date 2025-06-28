@@ -28,3 +28,5 @@ COPY lambda_function.py ${LAMBDA_TASK_ROOT}
 # ENTRYPOINT ["/lambda-entrypoint.sh"]
 # CMD ["lambda_function.lambda_handler"]
 CMD ["lambda_function.handler"]
+
+#running 1
